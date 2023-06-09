@@ -5,7 +5,7 @@
 /* Estilos global */
 * {
     font-family: 'Segoe UI', Tahoma, sans-serif;
-    font-size: 1.05em;
+    font-size: 1em;
     color: #1c1c1c;
     box-sizing: border-box;
 }
@@ -50,13 +50,14 @@ header > h2 {
 }
 
 /* Pagina Formulario */
-.pageform{
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+.registroUsuario{
     background: #f9f2dd;
-    padding: 20px 40px;
 }
+
+#txtAddress1{
+    margin-bottom: 8px;
+}
+
 
 /* Pagina Catalogo */
 main.pageCatalogo {
@@ -124,15 +125,10 @@ footer{
     color: #fff;
 }
 
-/* Elementos del formulario */
-label {
-    display: block;
-}
-
-#formCreateAccount > div {
-    margin-bottom: 20px;
-}
-
-.formElement{
-    width: 100%;
+/* Contacto por Whatsapp */
+#contactoWhatsapp {
+    width: 64px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
 }
